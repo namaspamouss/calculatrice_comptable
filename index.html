@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>calculatrice_comptable</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="calculatrice_comptable.css" />
+    
+    <script src="journal/journal.js"></script>
+    
+</head>
+
+<body>
+    <h1 id="titre">Société Maintinfo</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="importer_journal()">Journal</button>
+        <button class="tablinks" onclick="importer_grand_livre()">Le grand livre</button>
+        <button class="tablinks" onclick="importer_resultat()">Compte de résultat</button>
+        <button class="tablinks" onclick="importer_bilan()">Le bilan</button>
+    </div>
+
+    <div id="affichage">
+    </div>
+
+</body>
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</html>
+

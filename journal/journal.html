@@ -1,0 +1,43 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calculatrice_comptable.css" />
+    <script src="journal.js"></script>
+
+</head>
+
+<body>
+    <button id="my_button" onclick="ajouter_ligne()">ajouter une ligne</button>
+    <button id="fff" onclick="kick_credit(0)">fonction de ouf</button>
+    <button id="sauvegarder_lignes" onclick="sauvegarder_lignes()">sauvegarder le tableau</button>
+    <button id="charger" onclick="charger_lignes()">charger le tableau</button>
+    <table id="ma_table">
+        <tr>
+            <th>type</th>
+            <th>date</th>
+            <th>compte</th>
+            <th>libellé</th>
+            <th>montant Debit</th>
+            <th>montant Credit</th>
+            <th>D-C</th>
+        </tr>
+        <tr id="la_somme">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th><label id="somme_debit"></label></th>
+            <th><label id="somme_credit"></label></th>
+            <th><label id="somme_DC"></label></th>
+        </tr>
+    </table>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</html>
+
